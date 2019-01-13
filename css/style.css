@@ -78,7 +78,14 @@ img {
 
 .site-navigation,
 .user-navigation {
+  margin-top: 0;
   list-style: none;
+  margin-top: 0;
+  background-color: transparent;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
 
 .site-navigation a,
@@ -97,9 +104,13 @@ img {
   background-color: #242424;
 }
 
+.site-navigation-current {
+  cursor: default;
+  background-color: #242424;
+}
 
 .user-navigation {
-  display: flex;
+  display: block;
   max-width: 140px;
 
   margin: 0;
@@ -163,7 +174,8 @@ input[type="radio"].visually-hidden {
 
 .page-title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-top: 55px;
+  margin-bottom: 20px;
   padding: 0;
 }
 
@@ -504,7 +516,7 @@ input[type="radio"].visually-hidden {
 .breadcrumbs li {
   position: relative;
 
-  margin-right: 42px;
+  margin-right: 43px;
 }
 
 .breadcrumbs li:last-child {
@@ -515,7 +527,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 7px;
+  top: 8px;
   right: -25px;
 
   width: 8px;
@@ -571,7 +583,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
 
   list-style: none;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 .filter-option {
@@ -582,7 +594,7 @@ input[type="radio"].visually-hidden {
 .filter-option label {
   position: relative;
 
-  display: block;
+  /* display: block; */
 
   cursor: pointer;
   user-select: none;
