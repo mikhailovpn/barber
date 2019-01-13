@@ -583,7 +583,6 @@ input[type="radio"].visually-hidden {
   margin: 0;
 
   list-style: none;
-  /* font-size: 18px; */
 }
 
 .filter-option {
@@ -594,7 +593,7 @@ input[type="radio"].visually-hidden {
 .filter-option label {
   position: relative;
 
-  /* display: block; */
+  display: block;
 
   cursor: pointer;
   user-select: none;
@@ -609,7 +608,7 @@ input[type="radio"].visually-hidden {
   content: "";
   position: absolute;
   left: -42px;
-  top: 0;
+  top: 2px;
 
   width: 16px;
   height: 16px;
@@ -621,7 +620,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 4px;
+  top: 6px;
   left: -38px;
 
   width: 12px;
@@ -691,7 +690,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 20px;
   margin-right: 20px;
   background-color: f8f8f8;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 ./*catalog-item:nth-child(3) {
@@ -700,7 +699,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-item:hover {
   background-color: f8f8f8;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .catalog-item a {
