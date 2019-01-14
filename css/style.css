@@ -419,9 +419,61 @@ input[type="radio"].visually-hidden {
   margin-right: 0;
 }
 
+.inner-content {
+  margin-bottom: 75px;
+}
+
+.inner-content h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.inner-content h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  
+  font-size: 20px;
+  line-height: 24px;  
+}
+
+.inner-content p {
+  margin: 14px 0;
+}
+
+.inner-content h2 + h3 {
+  margin-top: 30px;
+}
+
+.inner-content table {
+  border-collapse: collapse;
+}
+
+.inner-content td {
+  padding: 10px 15px;
+  
+  border: 2px solid #000000;
+}
+
+.inner-content .big-heading {
+  display: flex;
+  align-items: center;
+  
+  margin-top: 55px;
+  margin-bottom: 65px;
+  
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  
+  background-color: red;
+}
+
 .main-footer {
   margin-top: 65px;
-  padding: 60px 0;
+  padding: 60px 0 0 0;
 
   background: none;
   min-height: 180px;
@@ -1043,7 +1095,7 @@ input[type="radio"].visually-hidden {
   top: 120px;
   left: 50%;
 
-  /* display: none; */
+  display: none; 
 
   width: 300px;
   margin-left: -230px;
@@ -1166,14 +1218,14 @@ input[type="radio"].visually-hidden {
   border: 2px solid #000000;
 }
 
-.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator {
   border-color: #663d15;
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator::before,
-.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator::after {
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
   content: "";
 
   position: absolute;
@@ -1186,11 +1238,11 @@ input[type="radio"].visually-hidden {
   background-color: #000000;
 }
 
-.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator::before {
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
   transform: rotate(45deg);
 }
 
-.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator::after {
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
   transform: rotate(-45deg);
 }
 
