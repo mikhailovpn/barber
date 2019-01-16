@@ -208,8 +208,6 @@ input[type="radio"].visually-hidden {
 
   font-size: 30px;
   line-height: 42px;
-
-  /* background-color: blue; */
 }
 
 .feature-item h3::after {
@@ -272,6 +270,7 @@ input[type="radio"].visually-hidden {
 
   background-color: #000000;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -290,7 +289,6 @@ input[type="radio"].visually-hidden {
 
 .news {
   width: 340px;
-  /* background-color: lightgrey; */
 }
 
 .news-list {
@@ -322,7 +320,6 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   height: 260px;
-  /* background-color: lightgrey; */
 }
 
 .gallery-content {
@@ -593,7 +590,7 @@ input[type="radio"].visually-hidden {
 .footer-copyright {
   width: 150px;
   margin: 0;
-  margin-left: auto;
+  margin-left: 250px;
 
   min-height: 100px;
 }
@@ -710,8 +707,7 @@ input[type="radio"].visually-hidden {
   user-select: none;
 }
 
-.filter-input:hover + label,
-.filter-input:focus + label {
+.filter-input:hover + label {
   color: #663d15;
 }
 
@@ -804,13 +800,9 @@ input[type="radio"].visually-hidden {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-./*catalog-item:nth-child(3) {
-  margin-right: 0;
-}*/
-
 .catalog-item:hover {
   background-color: f8f8f8;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .catalog-item a {
@@ -1105,11 +1097,6 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
-.footer-copyright:hover,
-.footer-copyright:focus {
-  color: #000000;
-}
-
 .login-form input[type="text"],
 .login-form input[type="password"] {
   font: inherit;
@@ -1367,8 +1354,6 @@ input[type="radio"].visually-hidden {
 
   margin-top: -280px;
   margin-left: -400px;
-
-  /* border: 7px solid white; */
 }
 
 .modal-map p {
